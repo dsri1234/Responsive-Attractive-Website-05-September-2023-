@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+.logo {
+    width: 20%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-size: contain;
+}
+
+.logo img {
+    width: 40%;
+    border-radius: 40px;
+    margin-top: 3px;
+    border: 2px solid white;
+    margin: 10px 0px;
+}
+
+.navlist {
+    width: 80%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navlist li {
+    list-style: none;
+    padding: 24px;
+    margin: 2px;
+}
+
+.navlist li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin: 2px;
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+
+.navlist li a:hover {
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 8px;
+    margin: 3px;
+}
+
+.rightNav {
+    /* background-color: blue; */
+    width: 50%;
+    text-align: right;
+    padding: 5px 32px;
+}
+
+#search {
+    padding: 5px;
+    margin: 0px -2px;
+    font-size: 1rem;
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+
+.background {
+    background: url('../img/bg.jpg');
+    background-size: cover;
+    /* background-blend-mode: darken; */
+}
+
+.firstSection {
+    height: 100vh;
+}
+
+.box-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    max-width: 74%;
+    margin: auto;
+    height: 46%;
+}
+
+.firstHalf {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.secondHalf {
+    width: 24%;
+}
+
+.secondHalf img {
+    width: 101%;
+    border-radius: 26px;
+    /* border: 2px solid white; */
+    margin-top: 63px;
+    margin-left: 14px;
+}
+
+.text-big {
+    font-size: 2rem;
+    /* color: #ff80dd; */
+    /* background-color: #185424; */
+    color: #0f0f2b;
+    background-color: #ff80dd;
+    border-radius: 97px;
+    padding: 22px;
+    margin: 18px;
+}
+
+.btn {
+    padding: 6px 9px;
+    margin: 14px 4px;
+    border: 1px solid white;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 500;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+
+.section {
+    /* height: 47vh; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 93vw;
+    margin: auto;
+    margin-top: 5vh;
+}
+
+.section-left {
+    flex-direction: row-reverse;
+}
+
+#lata-quote {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    color: #ff80dd;
+}
+
+#lata-subquote {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    margin-right: 41px;
+    color: #ff80dd;
+}
+
+.secRightParaContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#left_img{
+    padding: 8px 10px;
+    margin: 7px 45px;
+}
+
+.thumbnail img{
+    width: 84%;
+    border-radius: 37px;
+}
+
+.contact{
+    background-color: rgb(179, 236, 232);
+    height: 120vh;
+}
+
+.text-center{
+    text-align: center;
+    padding: 3vh 7vw;
+    margin: 0px 4px;
+    font-size: 2.2rem;
+    text-decoration: underline;
+}
+
+.form{
+    max-width: 46vw;
+    margin: 2vh auto;
+}
+.form-input{
+    width: 100%;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 3vh 1vw;
+    padding: 6px 7px;
+}
+
+.btn-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-submit{
+    color: black;
+    border: 2px solid black;
+    border-radius: 9px;
+    margin: 0vh 0vw;
+    padding: 1vh 3vw;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.text-footer{
+    text-align: center;
+    padding: 3vh 7vw;
+    margin: 0px 4px;
+    font-size: 1.1rem;
+}
+
+.FirstLine{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.1rem;
+    margin-bottom: 14px;
+    color: white;
+}
+
+.secondLine{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    color: white;
+}
+
+.ham-burger-icon{
+    position: absolute;
+    cursor: pointer;
+    right: 4%;
+    top: 11px;
+    display: none;
+}
+
+.line{
+    width: 28px;
+    background-color: white;
+    height: 3px;
+    margin: 6px 5px;
+
+}

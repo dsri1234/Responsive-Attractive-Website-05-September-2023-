@@ -1,0 +1,102 @@
+@media only screen and (max-width: 1146px) {
+    .navlist {
+        flex-direction: column;
+    }
+
+    .navbar {
+        flex-direction: column;
+        height: 89vh;
+        transition: all 0.5s ease-out;
+    }
+
+    .rightNav {
+        /* display: flex;
+        flex-direction: column; */
+        text-align: center;
+    }
+
+    #search {
+        width: 100%;
+    }
+
+    .navlist li a {
+        color: #743a97;
+        /* color: white; */
+        font-weight: 900;
+    }
+
+    .logo {
+        justify-content: center;
+    }
+
+    .logo img {
+        width: 70%;
+    }
+
+    .ham-burger-icon {
+        display: block;
+    }
+
+    .height-nav {
+        height: 10vh;
+    }
+
+    .visibility-class {
+        opacity: 0;
+    }
+
+    .box-main {
+        max-width: 100%;
+        flex-direction: column-reverse;
+    }
+
+    .firstSection {
+        height: 110vh;
+    }
+
+    .secondHalf {
+        width: 29%;
+        margin-top: 45vh;
+    }
+
+    .section {
+        flex-direction: column-reverse;
+        /* height: 89vh; */
+    }
+
+    .text-big {
+        text-align: center;
+    }
+
+    .FirstLine{
+        flex-direction: column;
+        color: #413a97;
+        font-weight: 900;
+        font-size: 19px;
+    }
+
+    .secondLine{
+        color: #413a97;
+        font-weight: 900;
+        font-size: 19px;
+    }
+
+
+    @media (max-width:450px) and (min-width:50px) {
+        .secondHalf {
+            width: 42%;
+            margin-top: 69vh;
+        }
+
+        .firstSection {
+            height: 130vh;
+            max-width: 100vw;
+        }
+
+        .text-big {
+            text-align: center;
+        }
+
+    }
+
+}
